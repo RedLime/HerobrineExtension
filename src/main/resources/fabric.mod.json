@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "herobrine",
+  "version": "${version}",
+  "name": "Herobrine",
+  "description": "",
+  "authors": [
+    "RedLime"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "speedrunigt": [
+      "com.redlimerl.mcsr.herobrine.HerobrineImpl"
+    ]
+  },
+  "mixins": [
+    "herobrine.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "minecraft": "1.16.1",
+    "speedrunigt": ">=7.0"
+  }
+}

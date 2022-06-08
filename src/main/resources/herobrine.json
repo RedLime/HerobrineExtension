@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.redlimerl.mcsr.herobrine.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinClientWorld"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
